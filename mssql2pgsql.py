@@ -22,7 +22,7 @@ if __name__ == '__main__':
         #exit()
         i += 1
         if( (i % 1000) == 0 ):
-            print("%.2f percent complete" % (i * 100/239228)) # update 239228 to reflect the actual number of rows
+            print("%.2f percent complete" % (i * 100/239228), flush=True) #TODO update 239228 to reflect the actual number of rows
 
         data = {}
         # Change the follow to work for your own source vs. destination table schemas
